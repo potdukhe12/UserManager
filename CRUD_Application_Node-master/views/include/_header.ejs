@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Manager</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- Header -->
+        <header id="header">
+            <!-- <nav>
+                <div class="container">
+                    <div class="text-center">
+                        <img src="./wis-min.png" alt="Logo" style="vertical-align: middle; margin-right: 10px;">
+                        <a href="/" class="nav-brand text-dark">User Manager</a>
+                    </div>
+                </div>
+            </nav> -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+                <div class="container">
+                    <a class="navbar-brand" href="/" style="font-size: 1.4rem;font-family: Audiowide, sans-serif;">User Manager</a>
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" 
+                        aria-label="Toggle navigation" data-parent="#navBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav" data-parent="#navBar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/potdukhe12/My-Portfolio/main/Saurabh%20Potdukhe.html">
+                                    About Saurabh
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/potdukhe12/UserManager">
+                                    Project's Github Link
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/SaurabhPotdukhe/">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <!-- /Header -->
+    </body>
+    <script>
+		// Toggle the mobile navigation menu
+        const menuButton = document.querySelector('.navbar-toggler');
+        const mobileNav = document.querySelector('.navbar-collapse');
+
+        menuButton.addEventListener('click', function () {
+        menuButton.classList.toggle('active');
+        mobileNav.classList.toggle('show');
+        });
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">	</script>
+</html>
