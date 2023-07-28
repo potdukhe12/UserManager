@@ -17,6 +17,12 @@ route.get('/', services.homeRoutes);
 route.get('/add-user', services.add_user)
 
 /**
+ *  @description export csv
+ *  @method GET /export-csv
+ */
+route.get('/export-csv', services.export_csv)
+
+/**
  *  @description for update user
  *  @method GET /update-user
  */

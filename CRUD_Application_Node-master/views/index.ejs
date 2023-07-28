@@ -1,4 +1,5 @@
 
+
 <!-- include header -->
     <%- include('include/_header') %>
 <!-- /include header -->
@@ -11,9 +12,12 @@
                 <button onclick="window.location.href='/add-user';" class="btn border-shadow">
                   <span class="text-gradient"><b>New User </b><i class="fas fa-user"></i></span>
                 </button>
-                <button onclick="downloadCSV()" class="btn border-shadow">
+                <!-- <button onclick="window.location.href='/api/users';" class="btn border-shadow">
                   <span class="text-gradient"><b># Export Data </b></span>
-                </button>
+                </button> -->
+                <button onclick="window.location.href='/export-csv';" class="btn border-shadow">
+                    <span class="text-gradient"><b># Export Data </b></span>
+                  </button>
               </div>
 
             <!-- form handling -->
@@ -37,8 +41,11 @@
         </div>
     </main>
 <!-- /Main Site -->
-<script src="./export_csv.js"></script>
+
 
 <!-- include footer -->
 <%- include('include/_footer') %>
 <!-- /include footer -->
+
+<!-- Client-side script -->
+<!-- <script src="./export_csv.js"></script> -->
